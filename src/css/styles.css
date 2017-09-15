@@ -1,0 +1,139 @@
+.content1containner{
+    height: 100vh;
+    width: 100%;
+    background-color: #3593DF;
+    /* background-image: url("../img/gallery/aboutlowres.jpg"); */
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+.content2containner{
+    height: 100vh;
+    width: 100%;
+    background-color: #C7B04C;
+    /* background-image: url("../img/gallery/aboutlowres.jpg"); */
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+
+.content3containner{
+    height: 100vh;
+    width: 100%;
+    background-color: #F8B7B7;
+    /* background-image: url("../img/gallery/aboutlowres.jpg"); */
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    display: flex;
+    justify-content:center;
+}
+
+
+.content3body {
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+    display: flex;
+    height: 350px;
+    width: 1000px;
+    margin-top:20%;
+    /* padding-left: 80px; */
+}
+
+.content3BodyVisible {
+    -webkit-animation: content3body 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
+    animation: content3body 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
+}
+
+ @-webkit-keyframes content3body {
+    0% {
+      -webkit-transform: translateY(0) rotateX(0);
+              transform: translateY(0) rotateX(0);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+    100% {
+      -webkit-transform: translateY(-100%) rotateX(-180deg);
+              transform: translateY(-100%) rotateX(-180deg);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+  }
+  @keyframes content3body {
+    0% {
+      -webkit-transform: translateY(0) rotateX(0);
+              transform: translateY(0) rotateX(0);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+    }
+    100% {
+      -webkit-transform: translateY(-100%) rotateX(-180deg);
+              transform: translateY(-100%) rotateX(-180deg);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+    }
+  }
+  
+
+
+
+
+.serviceTitle {
+  width: 100%;
+  font-size: 55px;
+  font-family: Rubik;
+  margin-bottom: 30px;
+  color: #2c2c2c;
+  text-align-last: center;
+  padding-top: 40px; // margin-top:30px;
+  -webkit-animation: serviceTitle 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: serviceTitle 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+
+  @-webkit-keyframes serviceTitle {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+      transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes serviceTitle {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+      transform: translateZ(-700px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+}
+
+
+#ryan{
+    width: 200px;
+  
+}
+
+#content3p{
+    padding-left:20px;
+}
+
