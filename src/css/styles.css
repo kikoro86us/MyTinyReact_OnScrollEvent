@@ -45,11 +45,11 @@
 }
 
 .content3BodyVisible {
-    -webkit-animation: content3body 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
-    animation: content3body 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
+    -webkit-animation: content3BodyVisible 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
+    animation: content3BodyVisible 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse both;
 }
 
- @-webkit-keyframes content3body {
+ @-webkit-keyframes content3BodyVisible {
     0% {
       -webkit-transform: translateY(0) rotateX(0);
               transform: translateY(0) rotateX(0);
@@ -63,7 +63,7 @@
               transform-origin: 50% 100%;
     }
   }
-  @keyframes content3body {
+  @keyframes content3BodyVisible {
     0% {
       -webkit-transform: translateY(0) rotateX(0);
               transform: translateY(0) rotateX(0);
@@ -89,9 +89,11 @@
   margin-bottom: 30px;
   color: #2c2c2c;
   text-align-last: center;
-  padding-top: 40px; // margin-top:30px;
+  padding-top: 40px;
+  margin-top:30px;
   -webkit-animation: serviceTitle 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   animation: serviceTitle 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
 
   @-webkit-keyframes serviceTitle {
     0% {
@@ -125,7 +127,6 @@
       opacity: 1;
     }
   }
-}
 
 
 #ryan{
