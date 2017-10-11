@@ -31,8 +31,9 @@ class Landing extends Component {
 
     handleScroll(event) {
         let iAmScroll = document.getElementsByClassName('content3body')[0];
-        let viewHeight = event.srcElement.body.scrollTop;
-        viewHeight > 1700 ? iAmScroll.classList.add('content3BodyVisible') : iAmScroll.classList.remove('content3BodyVisible');
+        let safariHeight = event.srcElement.body.scrollTop;
+        let chromeHeight = document.documentElement.scrollTop;
+        safariHeight > 1700 || chromeHeight > 1700 ? iAmScroll.classList.add('content3BodyVisible') : iAmScroll.classList.remove('content3BodyVisible');
     }
 
     
